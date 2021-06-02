@@ -1,0 +1,121 @@
+.order-card {
+  width: 804px;
+  margin: 25px auto;
+  padding: 50px;
+  background: #E3E8F74D; }
+
+.suppliers {
+  display: grid;
+  grid-template-columns: 1fr 0.25fr 0.5fr;
+  border-bottom: 1px solid #34353F; }
+
+.supplier-name {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px; }
+
+.goods-quantity {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #34353F;
+  text-align: left; }
+
+.total-price {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #34353F;
+  text-align: right; }
+
+.order-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr;
+  border-bottom: 1px solid #34353F; }
+
+.order-number {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px; }
+
+.order-date {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  grid-column: 3;
+  text-align: right; }
+
+.subtotals {
+  display: grid;
+  grid-template-columns: 1fr 0.25fr 0.5fr;
+  border-bottom: 1px solid #34353F; }
+
+.total-sum-txt {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #34353F;
+  text-align: left;
+  grid-column: 2; }
+
+.total-sum {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right; }
+
+.total {
+  display: grid;
+  grid-template-columns: 1fr 0.25fr 0.5fr; }
+
+.total-price-txt {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  grid-column: 2; }
+
+.total-all {
+  text-align: right;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  grid-column: 3; }
+
+.social-links {
+  display: block;
+  margin: 0 auto;
+  width: fit-content; }
+
+.social-link img {
+  width: 42px;
+  height: 42px; }
+
+.print {
+  border: 1px solid red;
+  border-radius: 22px;
+  background: red;
+  width: 20px;
+  height: 20px;
+  padding: 10px; }
